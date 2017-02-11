@@ -2,10 +2,24 @@
     <ion-content>
         <div class="content double-padding">
             <div class="row">
-                <div class="col col-offset-100">
+                <div class="col col-100 ">
+                    <div class="item item-icon-left">
+                        <span class="item-note"> Date: mm/dd/yyyy</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-100 ">
+                    <label class="item item-input item-stacked-label high-light">
+                        <span class="input-label">Payment Note</span>
+                        <input type="text" placeholder="Payment Note here">
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-100">
                     <div class="item item-icon-left">
                         <i class="icon ion-person"></i>Customer ID: Tn0001
-                        <span class="item-note"> Date: mm/dd/yyyy</span>
                     </div>
                 </div>
             </div>
@@ -39,21 +53,93 @@
                         <div class="input-label  item-stacked-label">
                             &nbsp;
                         </div>
-                        <select>
-                            <option>AM</option>
-                            <option selected>PM</option> 
-                        </select>
                     </div>
                     <label class="item item-input item-stacked-label">
                         <span class="input-label">Place of Birth</span>
                         <input type="text" placeholder="Type Your Birth Place">
                     </label>
                     <hr>
-<label class="item item-input item-stacked-label">
-<span class="input-label">Address</span>
-    <textarea placeholder="Type your Address"></textarea>
-  </label>
-
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Address</span>
+                        <textarea placeholder="Type your Address"></textarea>
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Mobile</span>
+                        <input type="text" placeholder="Type Your Mobile Number only 0-9">
+                    </label>
+                    <label class="item item-input item-stacked-label">
+                        <span class="input-label">Landline No</span>
+                        <input type="text" placeholder="Type Landline Number not mantatory">
+                    </label>
+                    <hr>
+                    <label class="item item-input item-stacked-label">
+                        <div class="row no-pad">
+                            <span class="input-label ">Pariharam 1</span>
+                        </div>
+                        <span class="input-label">Note</span>
+                        <textarea placeholder="Type your Comments here"></textarea>
+                        <div class="row no-pad">
+                            <div class="col col-50">
+                                <label class="item item-input item-stacked-label">
+                                    <span class="input-label">Start date</span>
+                                    <input type="date" placeholder="Type Your Start Date">
+                            </div>
+                            <div class="col col-50">
+                                <label class="item item-input item-stacked-label">
+                                    <span class="input-label">End date</span>
+                                    <input type="date" placeholder="Type Your End Date">
+                            </div>
+                        </div>
+                        </label>
+                        <label class="item item-input item-stacked-label">
+                            <div class="row no-pad">
+                                <span class="input-label ">Pariharam 2</span>
+                            </div>
+                            <span class="input-label">Note</span>
+                            <textarea placeholder="Type your Comments here"></textarea>
+                            <div class="row no-pad">
+                                <div class="col col-50">
+                                    <label class="item item-input item-stacked-label">
+                                        <span class="input-label">Start date</span>
+                                        <input type="date" placeholder="Type Your Start Date">
+                                </div>
+                                <div class="col col-50">
+                                    <label class="item item-input item-stacked-label">
+                                        <span class="input-label">End date</span>
+                                        <input type="date" placeholder="Type Your End Date">
+                                </div>
+                            </div>
+                            </label>
+                            <div class="row">
+                                <div class="col col-100">
+                                    <button class="button ion-android-add button-assertive item-note">Add</button>
+                                </div>
+                            </div>
+                            <hr>
+                            <label class="item item-input  item-stacked-label">
+                                <span class="input-label">Appointment Date</span>
+                                <input type="Date" placeholder="Next Appointment Date">
+                            </label>
+                            <div class="row">
+                                <div class="col col-100">
+                                    <button class="button button-assertive button-small item-note">Edit/Change Date</button>
+                                </div>
+                            </div>
+                            <hr>
+                            <label class="item item-input item-stacked-label">
+                                <span class="input-label">Custom Label</span>
+                                <textarea placeholder="Custom Note"></textarea>
+                            </label>
+                            <div class="row">
+                                <div class="col col-100">
+                                    <button class="button ion-android-add button-assertive item-note">Add</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-center ">
+                                    <button class="button button-balanced">Process Completed</button>
+                                </div>
+                            </div>
                 </div>
             </div>
         </div>
