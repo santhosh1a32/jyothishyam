@@ -96,6 +96,24 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             }
         }
     })
+     .state('app.splash', {
+        url: '/splash',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/splash.html',
+                controller:'splashCtrl'
+            }
+        }
+    })
+     .state('app.create-user', {
+        url: '/create-user',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/create-user.html',
+                controller:'create-userCtrl'
+            }
+        }
+    })
     ;
 
     // if none of the above states are matched, use this as the fallback
