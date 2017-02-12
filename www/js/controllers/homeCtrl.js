@@ -3,4 +3,5 @@ app.controller('HomeCtrl', function($scope, $stateParams) {
         selector: '.push-down'
     });
     */
+    $scope.addData = {};
 });
