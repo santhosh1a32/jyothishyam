@@ -114,6 +114,15 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             }
         }
     })
+     .state('app.view-list', {
+        url: '/view-list',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/view-list.html',
+                controller:'view-listCtrl'
+            }
+        }
+    })
     ;
 
     // if none of the above states are matched, use this as the fallback
