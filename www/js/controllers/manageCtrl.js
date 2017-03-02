@@ -1,4 +1,4 @@
-app.controller('HomeCtrl', function($scope, $stateParams) {
+app.controller('ManageCtrl', function($scope, $stateParams) {
     /* ionic.material.motion.pushDown({
         selector: '.push-down'
     });
