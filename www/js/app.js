@@ -123,6 +123,33 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             }
         }
     })
+     .state('app.manage', {
+        url: '/manage',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/manage.html',
+                controller:'manageCtrl'
+            }
+        }
+    })
+     .state('app.settings', {
+        url: '/settings',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/settings.html',
+                controller:'SettingsCtrl'
+            }
+        }
+    })
+     .state('app.customer', {
+        url: '/customer',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/customer.html',
+                controller:'customerCtrl'
+            }
+        }
+    })
     ;
 
     // if none of the above states are matched, use this as the fallback

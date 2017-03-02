@@ -211,3 +211,7 @@ p {
 .platform-android .popover{
 margin-top:10px;
 }
+ .wrapping-list .item-content, .wrapping-list .item {
+    overflow: initial;
+    white-space: initial;
+}
