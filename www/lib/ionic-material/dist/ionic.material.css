@@ -2945,3 +2945,7 @@ a {
 .spacer-right.el {    overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;}
+.list .item-input-wrapper {background-color: transparent;}
+.ion-scroll[direction=y] {
+  height: 100vh;
+}

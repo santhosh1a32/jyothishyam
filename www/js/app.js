@@ -78,6 +78,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             }
         }
     })
+
     .state('app.home', {
         url: '/home',
         views: {
@@ -87,6 +88,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             }
         }
     })
+
     .state('app.horoscope', {
         url: '/horoscope',
         views: {
@@ -96,6 +98,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             }
         }
     })
+
      .state('app.splash', {
         url: '/splash',
         views: {
@@ -105,6 +108,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             }
         }
     })
+
      .state('app.create-user', {
         url: '/create-user',
         views: {
@@ -114,6 +118,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             }
         }
     })
+
      .state('app.view-list', {
         url: '/view-list',
         views: {
@@ -123,6 +128,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             }
         }
     })
+
      .state('app.manage', {
         url: '/manage',
         views: {
@@ -132,6 +138,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             }
         }
     })
+
      .state('app.settings', {
         url: '/settings',
         views: {
@@ -141,6 +148,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             }
         }
     })
+     
      .state('app.customer', {
         url: '/customer',
         views: {
