@@ -1,15 +1,15 @@
 <ion-view view-title="Home">
     <ion-content>
-        <div class="content double-padding">
+        <div class="content ">
             <div class="row">
-                <div class="col col-100 ">
+                <div class="col">
                     <div class="item item-icon-left">
                         <span class="item-note"> Date: mm/dd/yyyy</span>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col col-100 ">
+                <div class="col">
                     <label class="item item-input item-stacked-label high-light">
                         <span class="input-label">Payment Note</span>
                         <input type="text" placeholder="Payment Note here">
@@ -17,14 +17,14 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col col-100">
+                <div class="col">
                     <div class="item item-icon-left">
                         <i class="icon ion-person"></i>Customer ID: Tn0001
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col col-100">
+                <div class="col">
                     <label class="item item-input item-stacked-label">
                         <span class="input-label">Name</span>
                         <input type="text" ng-model="addData.name" placeholder="Type customer name ">
@@ -101,13 +101,53 @@
                             <div class="col col-100">
                                 <button class="button button-assertive button-small item-note">Edit/Change Date</button>
                             </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="col col-center ">
-                                <button class="button button-balanced" ng-click="createclient()">Process Completed</button>
+                            </label>
+                            <div class="row">
+                                <div class="col">
+                                    <button class="button ion-android-add button-assertive item-note">Add</button>
+                                </div>
                             </div>
-                        </div>
+                            <hr>
+                            <label class="item item-input  item-stacked-label">
+                                <span class="input-label">Appointment Date</span>
+                                <input type="Date" placeholder="Next Appointment Date">
+                            </label>
+                            <div class="row">
+                                <div class="col">
+                                    <button class="button button-assertive button-small item-note">Edit/Change Date</button>
+                                </div>
+                            </div>
+                            <hr>
+                            <label class="item item-input item-stacked-label">
+                                <span class="input-label">Custom Label</span>
+                                <textarea placeholder="Custom Note"></textarea>
+                            </label>
+                            <div class="row">
+                                <div class="col">
+                                    <button class="button ion-android-add button-assertive item-note">Add</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-center ">
+                                    <button class="button button-balanced">Process Completed</button>
+                                </div>
+                            </div>
+                            <hr>
+                            <label class="item item-input item-stacked-label">
+                                <span class="input-label">Mantra</span>
+                                <input type="textarea" placeholder="Type your Mantra">
+                            </label>
+                            <label class="item item-input item-select">
+                                <div class="input-label">
+                                    Yantra
+                                </div>
+                                <select>
+                                    <option>no-yantra</option>
+                                    <option>Lakshmi Yantra</option>
+                                    <option selected>Yantra one</option>
+                                    <option>Yantra two</option>
+                                </select>
+                            </label>
                 </div>
             </div>
         </div>
