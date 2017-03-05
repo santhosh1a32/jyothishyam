@@ -10,68 +10,68 @@
                         <div class="row">
                             <div class="col col-25">
                                 <label class="item item-input">
-                                    <input type="text" placeholder="box 1">
+                                    <input type="text" placeholder="box 1" ng-model="lagnaForm.first">
                                 </label>
                             </div>
                             <div class="col col-25">
                                 <label class="item item-input">
-                                    <input type="text" placeholder="box 2">
+                                    <input type="text" placeholder="box 2" ng-model="lagnaForm.second">
                                 </label>
                             </div>
                             <div class="col col-25">
                                 <label class="item item-input">
-                                    <input type="text" placeholder="box 3">
+                                    <input type="text" placeholder="box 3" ng-model="lagnaForm.third">
                                 </label>
                             </div>
                             <div class="col col-25">
                                 <label class="item item-input">
-                                    <input type="text" placeholder="box 4">
+                                    <input type="text" placeholder="box 4" ng-model="lagnaForm.fourth">
                                 </label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col col-25">
                                 <label class="item item-input">
-                                    <input type="text" placeholder="box 12">
+                                    <input type="text" placeholder="box 12" ng-model="lagnaForm.twelve">
                                 </label>
                             </div>
                             <div class="col col-25 col-offset-50">
                                 <label class="item item-input">
-                                    <input type="text" placeholder="box 5">
+                                    <input type="text" placeholder="box 5" ng-model="lagnaForm.fifth">
                                 </label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col col-25">
                                 <label class="item item-input">
-                                    <input type="text" placeholder="box 11">
+                                    <input type="text" placeholder="box 11" ng-model="lagnaForm.eleven">
                                 </label>
                             </div>
                             <div class="col col-25 col-offset-50">
                                 <label class="item item-input">
-                                    <input type="text" placeholder="box 6">
+                                    <input type="text" placeholder="box 6" ng-model="lagnaForm.sixth">
                                 </label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col col-25">
                                 <label class="item item-input">
-                                    <input type="text" placeholder="box 10">
+                                    <input type="text" placeholder="box 10" ng-model="lagnaForm.tenth">
                                 </label>
                             </div>
                             <div class="col col-25">
                                 <label class="item item-input">
-                                    <input type="text" placeholder="box 9">
+                                    <input type="text" placeholder="box 9" ng-model="lagnaForm.ninth">
                                 </label>
                             </div>
                             <div class="col col-25">
                                 <label class="item item-input">
-                                    <input type="text" placeholder="box 8">
+                                    <input type="text" placeholder="box 8" ng-model="lagnaForm.eighth">
                                 </label>
                             </div>
                             <div class="col col-25">
                                 <label class="item item-input">
-                                    <input type="text" placeholder="box 7">
+                                    <input type="text" placeholder="box 7" ng-model="lagnaForm.seventh">
                                 </label>
                             </div>
                         </div>
@@ -79,7 +79,7 @@
                             <div class="col col-100">
                                 <div class="item item-input-inset">
                                     <label class="item-input-wrapper">
-                                        <input type="number" placeholder="Lagna box number">
+                                        <input type="number" placeholder="Lagna box number" ng-model="lagnaForm.lagna">
                                     </label>
                                     <button class="button button-small button-balanced">
                                         Lagna
@@ -89,7 +89,7 @@
                         </div>
                         <div class="row">
                             <div class="col col-100">
-                                <button class="button item-note button-assertive">
+                                <button class="button item-note button-assertive" ng-click="saveLagnaChart()">
                                     Save
                                 </button>
                             </div>
