@@ -78,6 +78,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             }
         }
     })
+
     .state('app.home', {
         url: '/home',
         views: {
@@ -87,12 +88,73 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             }
         }
     })
+
     .state('app.horoscope', {
         url: '/horoscope',
         views: {
             'menuContent': {
                 templateUrl: 'templates/horoscope.html',
                 controller:'HoroscopeCtrl'
+            }
+        }
+    })
+
+     .state('app.splash', {
+        url: '/splash',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/splash.html',
+                controller:'splashCtrl'
+            }
+        }
+    })
+
+     .state('app.create-user', {
+        url: '/create-user',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/create-user.html',
+                controller:'create-userCtrl'
+            }
+        }
+    })
+
+     .state('app.view-list', {
+        url: '/view-list',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/view-list.html',
+                controller:'view-listCtrl'
+            }
+        }
+    })
+
+     .state('app.manage', {
+        url: '/manage',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/manage.html',
+                controller:'manageCtrl'
+            }
+        }
+    })
+
+     .state('app.settings', {
+        url: '/settings',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/settings.html',
+                controller:'SettingsCtrl'
+            }
+        }
+    })
+     
+     .state('app.customer', {
+        url: '/customer',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/customer.html',
+                controller:'customerCtrl'
             }
         }
     })

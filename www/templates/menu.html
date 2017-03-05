@@ -11,9 +11,9 @@
                 <button class="button button-icon button-clear ion-android-more-vertical" id="menu-popover" ng-click="popover.show($event)"></button>
             </ion-nav-buttons>
         </ion-nav-bar>
-        <button id="fab" class="button button-positive button-fab button-fab-bottom-right">
+        <!-- <button id="fab" class="button button-positive button-fab button-fab-bottom-right">
             <i class="icon ion-social-twitter"></i>
-        </button>
+        </button> -->
         <ion-nav-view name="menuContent"></ion-nav-view>
     </ion-side-menu-content>
     <ion-side-menu side="left">
@@ -40,8 +40,30 @@
                 <ion-item nav-clear menu-close href="#/app/ink">
                     Ink
                 </ion-item>
-                <ion-item nav-clear menu-close href="#/app/home">
+                </ion-item>
+                  <ion-item nav-clear menu-close href="#/app/create-user">
+                    create user
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/splash">
+                    Splash
+                </ion-item>
+                  <ion-item nav-clear menu-close href="#/app/home">
                     Home
+                </ion-item>
+                  <ion-item nav-clear menu-close href="#/app/horoscope">
+                    Horoscope
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/view-list">
+                    View list
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/manage">
+                    Manage
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/settings">
+                    Settings
+                </ion-item>
+                <ion-item nav-clear menu-close href="#/app/customer">
+                    Customer
                 </ion-item>
             </ion-list>
         </ion-content>

@@ -3,6 +3,9 @@ app.controller('HoroscopeCtrl', function($scope, $stateParams, $ionicModal, $tim
         selector: '.push-down'
     });
     */
+
+    $scope.lagnaForm = {};
+
     $ionicModal.fromTemplateUrl('my-modal.html', {
         scope: $scope,
         animation: 'slide-in-up'
@@ -15,4 +18,8 @@ app.controller('HoroscopeCtrl', function($scope, $stateParams, $ionicModal, $tim
             //$scope.modal.hide();
         }, 2000);
     };
+
+    $scope.saveLagnaChart = function(){
+        console.log($scope.lagnaForm);
+    }
 });

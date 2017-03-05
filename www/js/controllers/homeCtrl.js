@@ -4,4 +4,8 @@ app.controller('HomeCtrl', function($scope, $stateParams) {
     });
     */
     $scope.addData = {};
+
+    $scope.createclient = function(){
+    	console.log($scope.addData);
+    }
 });
