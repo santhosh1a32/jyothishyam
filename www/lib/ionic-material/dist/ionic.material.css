@@ -2949,3 +2949,4 @@ a {
 .ion-scroll[direction=y] {
   height: 100vh;
 }
+.toggle .track{background-color: #ccc; border-color:#ccc;}
