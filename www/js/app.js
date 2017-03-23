@@ -158,6 +158,24 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             }
         }
     })
+     .state('app.login', {
+        url: '/login',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/login.html',
+                controller:'loginCtrl'
+            }
+        }
+    })
+     .state('app.register', {
+        url: '/register',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/register.html',
+                controller:'registerCtrl'
+            }
+        }
+    })
     ;
 
     // if none of the above states are matched, use this as the fallback

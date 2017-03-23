@@ -57,6 +57,7 @@
                     </label>
                     <hr>
                     <label class="item item-input item-stacked-label">
+                        <span class="input-label">Address</span>
                         <textarea ng-model="addData.pob" placeholder="Type your Address"></textarea>
                     </label>
                     <label class="item item-input item-stacked-label">
@@ -101,53 +102,43 @@
                             <div class="col col-100">
                                 <button class="button button-assertive button-small item-note">Edit/Change Date</button>
                             </div>
-                            </label>
-                            <div class="row">
-                                <div class="col">
-                                    <button class="button ion-android-add button-assertive item-note">Add</button>
-                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="button ion-android-add button-assertive item-note">Add</button>
                             </div>
-                            <hr>
-                            <label class="item item-input  item-stacked-label">
-                                <span class="input-label">Appointment Date</span>
-                                <input type="Date" placeholder="Next Appointment Date">
-                            </label>
-                            <div class="row">
-                                <div class="col">
-                                    <button class="button button-assertive button-small item-note">Edit/Change Date</button>
-                                </div>
+                        </div>
+                        <hr>
+                        <label class="item item-input item-stacked-label">
+                            <span class="input-label">Mantra</span>
+                            <input type="textarea" placeholder="Type your Mantra">
+                        </label>
+                        <label class="item item-input item-select">
+                            <div class="input-label">
+                                Yantra
                             </div>
-                            <hr>
-                            <label class="item item-input item-stacked-label">
-                                <span class="input-label">Custom Label</span>
-                                <textarea placeholder="Custom Note"></textarea>
-                            </label>
-                            <div class="row">
-                                <div class="col">
-                                    <button class="button ion-android-add button-assertive item-note">Add</button>
-                                </div>
+                            <select>
+                                <option>no-yantra</option>
+                                <option>Lakshmi Yantra</option>
+                                <option selected>Yantra one</option>
+                                <option>Yantra two</option>
+                            </select>
+                        </label>
+                        <hr>
+                        <label class="item item-input item-stacked-label">
+                            <span class="input-label">Custom Label</span>
+                            <textarea placeholder="Custom Note"></textarea>
+                        </label>
+                        <div class="row">
+                            <div class="col">
+                                <button class="button ion-android-add button-assertive item-note">Add</button>
                             </div>
-                            <div class="row">
-                                <div class="col col-center ">
-                                    <button class="button button-balanced">Process Completed</button>
-                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-center ">
+                                <button class="button button-balanced">Process Completed</button>
                             </div>
-                            <hr>
-                            <label class="item item-input item-stacked-label">
-                                <span class="input-label">Mantra</span>
-                                <input type="textarea" placeholder="Type your Mantra">
-                            </label>
-                            <label class="item item-input item-select">
-                                <div class="input-label">
-                                    Yantra
-                                </div>
-                                <select>
-                                    <option>no-yantra</option>
-                                    <option>Lakshmi Yantra</option>
-                                    <option selected>Yantra one</option>
-                                    <option>Yantra two</option>
-                                </select>
-                            </label>
+                        </div>
                 </div>
             </div>
         </div>
